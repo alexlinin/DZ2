@@ -14,8 +14,7 @@ string number1 = Convert.ToString(number);
 
 if (number1.Length != 3)
 {
-Console.Write("Вы указали не трехзначное число: ");
-Console.WriteLine(number);
+Console.Write("Вы указали не трехзначное число:" + " " + number);
 }
 
 else
